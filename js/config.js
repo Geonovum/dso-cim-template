@@ -8,7 +8,7 @@ var respecConfig = {
   shortName: "template",
   publishDate: "2022-06-24",
   publishVersion: "0.0.1",
-  title: "Template CIM-XX",
+  title: "Template CIM DSO",
   // previousPublishVersion: "(none)",
   content: {"ch01": "informative", "ch02": "", "mermaid": ""},
   editors:
