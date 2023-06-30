@@ -1,6 +1,6 @@
-# Conceptueel Informatiemodel Template
+# @MODELNAME@
 
-Dit is het readme bestand van het GIT repository waarin het CIM-TEMPLATE wordt beheerd. Dit is één van de conceptuele informatiemodellen van het [DSO](https://aandeslagmetdeomgevingswet.nl/implementatie/digitaal-stelsel/).
+Dit is het readme bestand van het GIT repository waarin het @STANDARD@ wordt beheerd. Dit is één van de conceptuele informatiemodellen van het [DSO](https://aandeslagmetdeomgevingswet.nl/implementatie/digitaal-stelsel/).
 
 Conceptuele informatiemodellen van het DSO:
 
