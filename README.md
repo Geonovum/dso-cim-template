@@ -12,6 +12,7 @@ Conceptuele informatiemodellen van het DSO:
  - [CIM-ORG](https://github.com/Geonovum/dso-cim-org): Conceptueel Informatiemodel (Overheids-)Organisaties.
  - [CIM-OW](https://github.com/Geonovum/dso-cim-ow): Conceptueel Informatiemodel Omgevingswet.
  - [CIM-OP](https://github.com/Geonovum/dso-cim-op): Conceptueel Informatiemodel Officiële Publicaties. 
+ - [CIM-PDC](https://github.com/Geonovum/dso-cim-pdc): Conceptueel Informatiemodel Producten- en Dienstencatalogus.
  - [CIM-TR](https://github.com/Geonovum/dso-cim-tr): Conceptueel Informatiemodel Toepasbare Regels. 
  - [CIM-SWF](https://github.com/Geonovum/dso-cim-swf): Conceptueel Informatiemodel Samenwerkfuctie.
  
