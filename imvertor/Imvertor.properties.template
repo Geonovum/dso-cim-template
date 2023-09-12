@@ -5,4 +5,5 @@ createhistory = no
 gitpath = /Geonovum/@REPONAME@
 sfconformance = 2
 mapping = NEN3610_2022
-assocbyreference        = yes
+assocbyreference = yes
+nativescalars = no
