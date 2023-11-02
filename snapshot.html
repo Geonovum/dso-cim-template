@@ -113,22 +113,8 @@ ul.index code{color:inherit}
 #index-defined-here .print-only{display:initial}
 }
 </style>
-<meta name="description" content="Dit document beschrijft het @MODELNAME@. Dit is een conceptueel model van het
+<meta name="description" content="Dit document beschrijft het 'Conceptueel Informatiemodel Template'. Dit is een conceptueel model van het
 DSO. Er is een reeks van deze modellen:">
-<style>
-.hljs{display:block;overflow-x:auto;padding:.5em;color:#383a42;background:#fafafa}
-.hljs-comment,.hljs-quote{color:#717277;font-style:italic}
-.hljs-doctag,.hljs-formula,.hljs-keyword{color:#a626a4}
-.hljs-deletion,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-subst{color:#ca4706;font-weight:700}
-.hljs-literal{color:#0b76c5}
-.hljs-addition,.hljs-attribute,.hljs-meta-string,.hljs-regexp,.hljs-string{color:#42803c}
-.hljs-built_in,.hljs-class .hljs-title{color:#9a6a01}
-.hljs-attr,.hljs-number,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-pseudo,.hljs-template-variable,.hljs-type,.hljs-variable{color:#986801}
-.hljs-bullet,.hljs-link,.hljs-meta,.hljs-selector-id,.hljs-symbol,.hljs-title{color:#336ae3}
-.hljs-emphasis{font-style:italic}
-.hljs-strong{font-weight:700}
-.hljs-link{text-decoration:underline}
-</style>
 <style>
 
   .sidelabel {
@@ -283,13 +269,45 @@ DSO. Er is een reeks van deze modellen:">
     }
   },
   "localBiblio": {
-    "SemVer": {
-      "href": "https://semver.org",
-      "title": "Semantic Versioning 2.0.0",
-      "authors": [
-        "T. Preston-Werner"
-      ],
-      "date": "June 2013"
+    "Basisgeometrie": {
+      "id": "Basisgeometrie",
+      "title": "Basisgeometrie",
+      "href": "https://docs.geostandaarden.nl/nen3610/def-st-basisgeometrie-20200930/",
+      "status": "Definitief",
+      "publisher": "Geonovum",
+      "date": "30 september 2020"
+    },
+    "MIM": {
+      "id": "MIM",
+      "title": "MIM - Metamodel Informatie Modellering",
+      "href": "https://docs.geostandaarden.nl/mim/def-st-mim-20220217/",
+      "status": "Definitief",
+      "publisher": "Geonovum",
+      "date": "2022-02-17"
+    },
+    "CIMOW": {
+      "id": "CIMOW",
+      "title": "Conceptueel Informatiemodel Omgevingswet (CIMOW)",
+      "href": "https://geonovum.github.io/TPOD/CIMOW/CIMOW_v2.1.0.pdf",
+      "status": "Definitief",
+      "publisher": "Geonovum",
+      "date": "2022-01-07"
+    },
+    "IMOW": {
+      "id": "IMOW",
+      "title": "Informatiemodel Omgevingswet (IMOW)",
+      "href": "https://geonovum.github.io/TPOD/CIMOW/IMOW_v2.0.2.pdf",
+      "status": "Definitief",
+      "publisher": "Geonovum",
+      "date": "2023-01-09"
+    },
+    "STOP20": {
+      "id": "STOP20",
+      "title": "Standaard Officiële Publicaties",
+      "href": "https://koop.gitlab.io/STOP/standaard/2.0.0-rc/index.html",
+      "status": "Release Candidate",
+      "publisher": "KOOP",
+      "date": "2023-02-17"
     }
   },
   "title": "Titel van document",
@@ -307,34 +325,34 @@ DSO. Er is een reeks van deze modellen:">
   ],
   "authors": [
     {
-      "name": "voornaam achternaam",
+      "name": "TPOD team",
       "company": "Geonovum",
       "companyURL": "https://www.geonovum.nl"
     }
   ],
-  "github": "https://github.com/Geonovum/NL-ReSpec-GN-template",
+  "github": "https://github.com/Geonovum/dso-cim-template",
   "alternateFormats": [
     {
       "label": "pdf",
-      "uri": "template.pdf"
+      "uri": "dso-cim-template.pdf"
     }
   ]
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2016/base.css"></head>
 
-<body class="h-entry"><div class="head">
+<body class="h-entry toc-inline"><div class="head">
     <a class="logo" href="https://www.geonovum.nl/geo-standaarden"><img alt="Geonovum" height="67" id="Geonovum" src="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg" width="132">
   </a> <h1 id="title" class="title">Titel van document</h1>
     
     <h2>
       Geonovum Informatiemodel<br>
       Werkversie
-      <time class="dt-published" datetime="2023-10-25">25 oktober 2023</time>
+      <time class="dt-published" datetime="2023-11-02">02 november 2023</time>
     </h2>
     <dl>
       
       
-      <dt>Laatste werkversie:</dt><dd><a href="https://geonovum.github.io/NL-ReSpec-GN-template/">https://geonovum.github.io/NL-ReSpec-GN-template/</a></dd>
+      <dt>Laatste werkversie:</dt><dd><a href="https://geonovum.github.io/dso-cim-template/">https://geonovum.github.io/dso-cim-template/</a></dd>
       
       
       
@@ -346,23 +364,23 @@ DSO. Er is een reeks van deze modellen:">
   </dd>
       
       <dt>Auteur:</dt><dd class="editor p-author h-card vcard">
-    <span class="p-name fn">voornaam achternaam</span> (<a class="p-org org h-org" href="https://www.geonovum.nl">Geonovum</a>)
+    <span class="p-name fn">TPOD team</span> (<a class="p-org org h-org" href="https://www.geonovum.nl">Geonovum</a>)
   </dd>
       <dt>Doe mee:</dt><dd>
-    <a href="https://github.com/Geonovum/NL-ReSpec-GN-template/">GitHub Geonovum/NL-ReSpec-GN-template</a>
+    <a href="https://github.com/Geonovum/dso-cim-template/">GitHub Geonovum/dso-cim-template</a>
   </dd><dd>
-    <a href="https://github.com/Geonovum/NL-ReSpec-GN-template/issues/">Dien een melding in</a>
+    <a href="https://github.com/Geonovum/dso-cim-template/issues/">Dien een melding in</a>
   </dd><dd>
-    <a href="https://github.com/Geonovum/NL-ReSpec-GN-template/commits/">Revisiehistorie</a>
+    <a href="https://github.com/Geonovum/dso-cim-template/commits/">Revisiehistorie</a>
   </dd><dd>
-    <a href="https://github.com/Geonovum/NL-ReSpec-GN-template/pulls/">Pull requests</a>
+    <a href="https://github.com/Geonovum/dso-cim-template/pulls/">Pull requests</a>
   </dd>
     </dl>
     
     
     <p>
           Dit document is ook beschikbaar in dit niet-normatieve formaat:
-          <a rel="alternate" href="template.pdf">pdf</a>
+          <a rel="alternate" href="dso-cim-template.pdf">pdf</a>
         </p>
     <p class="copyright">
           Dit document valt onder de volgende licentie: 
@@ -370,41 +388,91 @@ DSO. Er is een reeks van deze modellen:">
         </p>
     <hr title="Separator for header">
   </div>
-  <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Dit document beschrijft het @MODELNAME@. Dit is een conceptueel model van het
+  <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Dit document beschrijft het 'Conceptueel Informatiemodel Template'. Dit is een conceptueel model van het
 DSO. Er is een reeks van deze modellen:</p>
-<ul>
-<li><a href="https://geonovum.github.io/dso-cim-am/">CIM-AM</a>: Conceptueel Informatiemodel Aanvragen en Meldingen.</li>
-<li><a href="https://geonovum.github.io/dso-cim-bhkv/">CIM-BHKV</a>: Conceptueel Informatiemodel Bronhouderkoppelvlak.</li>
-<li><a href="https://geonovum.github.io/dso-cim-hlp/">CIM-HLP</a>: Conceptueel Informatiemodel Help en Ondersteuning.</li>
-<li><a href="https://geonovum.github.io/dso-cim-mac/">CIM-MAC</a>: Conceptueel Informatiemodel Machtigen.</li>
-<li><a href="https://geonovum.github.io/dso-cim-oi/">CIM-OI</a>: Conceptueel Informatiemodel Omgevingsinformatie.</li>
-<li><a href="https://geonovum.github.io/dso-cim-ow/">CIM-OW</a>: Conceptueel Informatiemodel Omgevingswet.</li>
-<li><a href="https://geonovum.github.io/dso-cim-op/">CIM-OP</a>: Conceptueel Informatiemodel Officiële Publicaties. </li>
-<li><a href="https://geonovum.github.io/dso-cim-org/">CIM-ORG</a>: Conceptueel Informatiemodel (Overheids-)Organisaties.</li>
-<li><a href="https://geonovum.github.io/dso-cim-pdc/">CIM-PDC</a>: Conceptueel Informatiemodel Producten- en Dienstencatalogus.</li>
-<li><a href="https://geonovum.github.io/dso-cim-swf/">CIM-SWF</a>: Conceptueel Informatiemodel Samenwerkfuctie.</li>
-<li><a href="https://geonovum.github.io/dso-cim-tr/">CIM-TR</a>: Conceptueel Informatiemodel Toepasbare Regels.</li>
-</ul>
 </section>
-  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#voorwoord"><bdi class="secno">1. </bdi>Voorwoord</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">2. </bdi>Inleiding</a></li><li class="tocline"><a class="tocxref" href="#toepassingsgebied"><bdi class="secno">3. </bdi>Toepassingsgebied</a></li><li class="tocline"><a class="tocxref" href="#overzicht"><bdi class="secno">4. </bdi>Overzicht</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">4.1 </bdi>Normatieve referenties</a></li><li class="tocline"><a class="tocxref" href="#termen-en-definities"><bdi class="secno">4.2 </bdi>Termen en definities</a></li><li class="tocline"><a class="tocxref" href="#symbolen-en-afkortingen"><bdi class="secno">4.3 </bdi>Symbolen en afkortingen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#bibliografie"><bdi class="secno">5. </bdi>Bibliografie</a></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">6. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#index"><bdi class="secno">A. </bdi>Index</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#index-defined-here"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</a></li><li class="tocline"><a class="tocxref" href="#index-defined-elsewhere"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</a></li></ol></li></ol></nav>
+  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#voorwoord"><bdi class="secno">1. </bdi>Voorwoord</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">2. </bdi>Inleiding</a></li><li class="tocline"><a class="tocxref" href="#toepassingsgebied"><bdi class="secno">3. </bdi>Toepassingsgebied</a></li><li class="tocline"><a class="tocxref" href="#overzicht"><bdi class="secno">4. </bdi>Overzicht</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#termen-en-definities"><bdi class="secno">4.1 </bdi>Termen en definities</a></li><li class="tocline"><a class="tocxref" href="#symbolen-en-afkortingen"><bdi class="secno">4.2 </bdi>Symbolen en afkortingen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#bibliografie"><bdi class="secno">5. </bdi>Bibliografie</a></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">6. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">7. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#index"><bdi class="secno">A. </bdi>Index</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#index-defined-here"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</a></li><li class="tocline"><a class="tocxref" href="#index-defined-elsewhere"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</a></li></ol></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">B. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">B.1 </bdi>Normatieve referenties</a></li></ol></li></ol></nav>
 
   <section id="voorwoord"><div class="header-wrapper"><h2 id="x1-voorwoord"><bdi class="secno">1. </bdi>Voorwoord</h2><a class="self-link" href="#voorwoord" aria-label="Permalink for Section 1."></a></div>
 <p>Dit document is tot stand gekomen binnen het programma  DSO-Omgegevingswet. Het bevat de formele vastlegging en beschrijving van het Conceptuele Informatiemodel.</p>
 <p>Dit conceptuele informatiemodel volgt de regels voor opstellen van een informatiemodel zoals vastgelegd in de MIM standaard en wordt uitgedrukt in UML.</p>
 </section>
   <section id="inleiding"><div class="header-wrapper"><h2 id="x2-inleiding"><bdi class="secno">2. </bdi>Inleiding</h2><a class="self-link" href="#inleiding" aria-label="Permalink for Section 2."></a></div>
-<p>TODO</p>
+<p>In een stelsel van samenhangende voorzieningen, zoals het Digitaal Stelsel
+Omgevingswet (DSO), is semantische interoperabiliteit essentieel om de
+verschillende stelselonderdelen in staat te stellen relevante informatie op een
+betekenisvolle manier met elkaar uit te wisselen. Voor de dienstverlening
+rondom de Omgevingswet moet altijd duidelijk zijn welke betekenis wordt
+toegekend aan woorden (begrippenkader) en wat de relatie is tussen begrippen,
+vanuit de inhoud van die begrippen (semantische relaties).  Dit modelleren we
+in conceptuele informatiemodellen (CIM) die een relatief stabiel raamwerk voor
+het werken onder architectuur en de basis voor de implementatie biedt.</p>
+<blockquote>
+<p>Conceptuele informatiemodellen (CIMs) – Definitie volgens MIM [<cite><a class="bibref" data-link-type="biblio" href="#bib-mim" title="MIM - Metamodel Informatie Modellering">MIM</a></cite>]
+Een conceptueel informatiemodel beschrijft de modellering van de werkelijkheid
+binnen het beschouwde domein door middel van de beschrijving van welke
+informatie (data met betekenis en structuur) een rol speelt. Een conceptueel
+informatiemodel is hierbij onafhankelijk van het ontwerp van en de
+implementatie in systemen. Het geeft een zo getrouw mogelijke beschrijving van
+die werkelijkheid en is in natuurlijke taal geformuleerd.</p>
+<p>Een dergelijk model definieert het ‘wat’: welke 'onderwerpen van gesprek'
+('concepten', 'dingen’) worden onderscheiden in de beschouwde werkelijkheid.
+Wat betekenen zij, hoe verhouden ze zich tot elkaar en welke informatie is
+daarvan relevant. Deze informatie wordt gemodelleerd als informatieobjecten
+met eigenschappen/kenmerken, oftewel waarvoor data beschikbaar is (of zal
+zijn) en wordt ondergebracht in een informatiemodel. Dit informatiemodel
+dient als taal waarmee domeinexperts kunnen communiceren met
+informatieanalisten en verschaft een eenduidige interpretatie van die
+werkelijkheid ten behoeve van deze communicatie.</p>
+<p>Met conceptueel wordt niet bedoeld abstract of hoog over, de beschrijvingen
+van de informatie die beschikbaar is zijn heel precies en concreet.</p>
+<p>Een conceptueel informatiemodel wordt opgesteld voor gebruik door mensen,
+zodat ‘de business’ en de ICT-specialisten elkaar (gaan) begrijpen voor wat
+betreft de informatie die in het domein wordt geregistreerd en/of kan worden
+uitgewisseld.</p>
+</blockquote>
+<p>Binnen DSO worden verschillende informatiedomeinen onderkend: elk
+informatiedomein groepeert informatieobjecten met maximale samenhang en vormt
+logische bouwblokken voor de informatievoorziening van DSO.  </p>
+<p>De informatiedomeinen zijn de basis voor de indeling van de informatiemodellen.
+Elk informatiedomein wordt op conceptueel niveau beschreven door een
+conceptueel informatiemodel (CIM) dat richting geeft aan de uitwerking van het
+informatiedomein en de samenhang met aanpalende domeinen borgt.</p>
+<figure id="Figure-CIM-Overzicht">
+<img src="media/CIM-Overzicht.png" alt="">
+<figcaption><a class="self-link" href="#Figure-CIM-Overzicht">Figuur <bdi class="figno">1</bdi></a> <span class="fig-title">Overzicht van alle Conceptuele Informatiemodellen in het DSO</span></figcaption>
+</figure>
+
+<p>De onderstaande conceptuele informatiemodellen zijn beschikbaar¬. De modellen
+zijn in verschillende stadia van ontwikkeling en de links kunnen zowel naar
+ontwikkel- als publicatieversies verwijzen.</p>
+<ul>
+<li><a href="https://geonovum.github.io/dso-cim-am/">CIM-AM</a>: Conceptueel Informatiemodel Aanvragen en  meldingen.</li>
+<li><a href="https://geonovum.github.io/dso-cim-hlp/">CIM-HLP</a>: Conceptueel Informatiemodel Help en ondersteuning.</li>
+<li><a href="https://geonovum.github.io/dso-cim-mac/">CIM-MAC</a> Conceptueel Informatiemodel Machtigen.</li>
+<li><a href="https://geonovum.github.io/dso-cim-oi/">CIM-OI</a>: Conceptueel Informatiemodel Omgevingsinformatie.</li>
+<li><a href="https://geonovum.github.io/dso-cim-op/">CIM-OP</a>: Conceptueel Informatiemodel Officiële publicaties.</li>
+<li><a href="https://geonovum.github.io/dso-cim-org/">CIM-ORG</a>: Conceptueel Informatiemodel (Overheids-)Organisaties.</li>
+<li><a href="https://geonovum.github.io/dso-cim-ow/">CIM-OW</a>: Conceptueel Informatiemodel Omgevingswet.</li>
+<li><a href="https://geonovum.github.io/dso-cim-pdc/">CIM-PDC</a>: Conceptueel Informatiemodel Producten- en Dienstencatalogus.</li>
+<li><a href="https://geonovum.github.io/dso-cim-swf/">CIM-SWF</a>: Conceptueel Informatiemodel Samenwerken.</li>
+<li><a href="https://geonovum.github.io/dso-cim-tr/">CIM-TR</a>: Conceptueel Informatiemodel Toepasbare regels.</li>
+</ul>
+<p>Alhoewel elk conceptueel informatiemodel één informatiedomein afbeeldt, zijn er
+dwarsverbanden en afhankelijkheden tussen de verschillende domeinen. De
+conceptuele informatiemodellen worden derhalve in samenhang beheert en
+ontwikkelt, teneinde de semantische interoperabiliteit in en met het DSO te
+kunnen waarborgen.</p>
+<p>Dit document bevat de vastlegging en beschrijving van het Conceptueel Informatiemodel Template.</p>
 </section>
   <section id="toepassingsgebied"><div class="header-wrapper"><h2 id="x3-toepassingsgebied"><bdi class="secno">3. </bdi>Toepassingsgebied</h2><a class="self-link" href="#toepassingsgebied" aria-label="Permalink for Section 3."></a></div>
 <p>Het toepassingsdomein van deze standaard is het DSO van de omgevingswet.</p>
 </section>
   <section id="overzicht"><div class="header-wrapper"><h2 id="x4-overzicht"><bdi class="secno">4. </bdi>Overzicht</h2><a class="self-link" href="#overzicht" aria-label="Permalink for Section 4."></a></div>
 <p>TODO</p>
-<section id="normatieve-referenties"><div class="header-wrapper"><h3 id="x4-1-normatieve-referenties"><bdi class="secno">4.1 </bdi>Normatieve referenties</h3><a class="self-link" href="#normatieve-referenties" aria-label="Permalink for Section 4.1"></a></div>
+<section id="termen-en-definities"><div class="header-wrapper"><h3 id="x4-1-termen-en-definities"><bdi class="secno">4.1 </bdi>Termen en definities</h3><a class="self-link" href="#termen-en-definities" aria-label="Permalink for Section 4.1"></a></div>
 <p>TODO</p>
-</section><section id="termen-en-definities"><div class="header-wrapper"><h3 id="x4-2-termen-en-definities"><bdi class="secno">4.2 </bdi>Termen en definities</h3><a class="self-link" href="#termen-en-definities" aria-label="Permalink for Section 4.2"></a></div>
-<p>TODO</p>
-</section><section id="symbolen-en-afkortingen"><div class="header-wrapper"><h3 id="x4-3-symbolen-en-afkortingen"><bdi class="secno">4.3 </bdi>Symbolen en afkortingen</h3><a class="self-link" href="#symbolen-en-afkortingen" aria-label="Permalink for Section 4.3"></a></div>
+</section><section id="symbolen-en-afkortingen"><div class="header-wrapper"><h3 id="x4-2-symbolen-en-afkortingen"><bdi class="secno">4.2 </bdi>Symbolen en afkortingen</h3><a class="self-link" href="#symbolen-en-afkortingen" aria-label="Permalink for Section 4.2"></a></div>
 <p>Lijst van afkortingen en acroniemen die worden gehanteerd in deze
 dataspecificatie.</p>
 <p><strong>TODO</strong> nader in te vullen</p>
@@ -412,23 +480,18 @@ dataspecificatie.</p>
 
   
   
-
-
-<meta charset="utf-8">
-<title>Error</title>
-
-
-<pre aria-busy="false"><code class="hljs">Cannot GET /data/dso-cim-template-cat.respec.html</code></pre>
-
-
-
+  
 
   <section id="bibliografie"><div class="header-wrapper"><h2 id="x5-bibliografie"><bdi class="secno">5. </bdi>Bibliografie</h2><a class="self-link" href="#bibliografie" aria-label="Permalink for Section 5."></a></div>
 <p>TODO</p>
 </section>
 
   <section id="conformance"><div class="header-wrapper"><h2 id="x6-conformiteit"><bdi class="secno">6. </bdi>Conformiteit</h2><a class="self-link" href="#conformance" aria-label="Permalink for Section 6."></a></div><p>Naast onderdelen die als niet normatief gemarkeerd zijn, zijn ook alle diagrammen, voorbeelden, en noten in dit document niet normatief. Verder is alles in dit document normatief.</p></section>
-  <section id="tof"></section>
+  <section id="tof"><div class="header-wrapper"><h2 id="x7-lijst-met-figuren"><bdi class="secno">7. </bdi>Lijst met figuren</h2><a class="self-link" href="#tof" aria-label="Permalink for Section 7."></a></div><ul class="tof">
+        <li class="tofline">
+    <a class="tocxref" href="#Figure-CIM-Overzicht"><span class="self-link">Figuur <bdi class="figno">1</bdi></span> <span class="fig-title">Overzicht van alle Conceptuele Informatiemodellen in het DSO</span></a>
+  </li>
+      </ul></section>
   <section id="index" class="appendix"><div class="header-wrapper"><h2 id="a-index"><bdi class="secno">A. </bdi>Index</h2><a class="self-link" href="#index" aria-label="Permalink for Appendix A."></a></div><section id="index-defined-here">
     <div class="header-wrapper"><h3 id="a-1-begrippen-gedefinieerd-door-deze-specificatie"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</h3><a class="self-link" href="#index-defined-here" aria-label="Permalink for Appendix A.1"></a></div>
     <ul class="index">
@@ -443,7 +506,12 @@ dataspecificatie.</p>
 
 
 
-<p role="navigation" id="back-to-top">
+<section id="references" class="appendix"><div class="header-wrapper"><h2 id="b-referenties"><bdi class="secno">B. </bdi>Referenties</h2><a class="self-link" href="#references" aria-label="Permalink for Appendix B."></a></div><section id="normatieve-referenties">
+    <div class="header-wrapper"><h3 id="b-1-normatieve-referenties"><bdi class="secno">B.1 </bdi>Normatieve referenties</h3><a class="self-link" href="#normatieve-referenties" aria-label="Permalink for Appendix B.1"></a></div>
+    <dl class="bibliography"><dt id="bib-mim">[MIM]</dt><dd>
+      <a href="https://docs.geostandaarden.nl/mim/def-st-mim-20220217/"><cite>MIM - Metamodel Informatie Modellering</cite></a>.  Geonovum. 2022-02-17. Definitief. URL: <a href="https://docs.geostandaarden.nl/mim/def-st-mim-20220217/">https://docs.geostandaarden.nl/mim/def-st-mim-20220217/</a>
+    </dd></dl>
+  </section></section><p role="navigation" id="back-to-top">
     <a href="#title"><abbr title="Back to Top">↑</abbr></a>
   </p><script id="respec-dfn-panel">(() => {
 // @ts-check
