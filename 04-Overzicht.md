@@ -1,17 +1,18 @@
 # Overzicht
 
-TODO
-
 ## Termen en definities
 
-TODO
+ - <dfn>geo-informatie</dfn>: Gegevens met een directe of indirecte referentie naar een plaats ten op gezichte
+van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)
 
 ## Symbolen en afkortingen
 
-Lijst van afkortingen en acroniemen die worden gehanteerd in deze
-dataspecificatie.
-
-**TODO** nader in te vullen
+- **CIM** Conceptueel Informatiemodel
+- **DSO** Digitaal Stelsel Omgevingswet.
+- **MIM** Metamodel voor Informatiemodellen.
+- **STOP** Standaard Officiële Publicaties.
+- **TPOD** Toepassingsprofiel Omgevingswet.
+- **UML** Universal Modeling Language.
 
 
 

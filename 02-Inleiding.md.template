@@ -10,7 +10,7 @@ vanuit de inhoud van die begrippen (semantische relaties).  Dit modelleren we
 in conceptuele informatiemodellen (CIM) die een relatief stabiel raamwerk voor
 het werken onder architectuur en de basis voor de implementatie biedt.
 
-> Conceptuele informatiemodellen (CIMs) – Definitie volgens MIM [[MIM]]
+> Conceptuele informatiemodellen (CIMs) – Definitie volgens MIM  
 > Een conceptueel informatiemodel beschrijft de modellering van de werkelijkheid
 > binnen het beschouwde domein door middel van de beschrijving van welke
 > informatie (data met betekenis en structuur) een rol speelt. Een conceptueel
@@ -50,7 +50,7 @@ informatiedomein en de samenhang met aanpalende domeinen borgt.
 <figcaption>Overzicht van alle Conceptuele Informatiemodellen in het DSO</figcaption>
 </figure>
 
-De onderstaande conceptuele informatiemodellen zijn beschikbaar¬. De modellen
+De onderstaande conceptuele informatiemodellen zijn beschikbaar. De modellen
 zijn in verschillende stadia van ontwikkeling en de links kunnen zowel naar
 ontwikkel- als publicatieversies verwijzen.
 
@@ -67,7 +67,7 @@ ontwikkel- als publicatieversies verwijzen.
 
 Alhoewel elk conceptueel informatiemodel één informatiedomein afbeeldt, zijn er
 dwarsverbanden en afhankelijkheden tussen de verschillende domeinen. De
-conceptuele informatiemodellen worden derhalve in samenhang beheert en
+conceptuele informatiemodellen worden derhalve in samenhang beheerd en
 ontwikkelt, teneinde de semantische interoperabiliteit in en met het DSO te
 kunnen waarborgen.
 
