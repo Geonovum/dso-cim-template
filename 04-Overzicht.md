@@ -2,10 +2,6 @@
 
 TODO
 
-## Normatieve referenties
-
-TODO
-
 ## Termen en definities
 
 TODO
